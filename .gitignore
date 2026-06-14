@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+venv/
+.venv/
+env/
+
+# Jupyter — add notebooks explicitly with: git add -f notebook.ipynb
+*.ipynb
+.ipynb_checkpoints/
+
+# Datasets and model weights (too large for git)
+data/
+datasets/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
